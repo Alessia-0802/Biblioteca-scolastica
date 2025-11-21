@@ -10,6 +10,16 @@ namespace BibliotecaScolastica
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Benvenuto");
+
+            Console.WriteLine("\nInserisci il nome del libro:");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("\nInserisci l'autore del libro:");
+            string autore = Console.ReadLine();
+
+            Console.WriteLine("\nInserisci il numero di pagine del libro:");
+            string numeroPagine = Console.ReadLine();
         }
     }
 }
