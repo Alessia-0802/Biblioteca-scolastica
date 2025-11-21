@@ -26,7 +26,7 @@ namespace BibliotecaScolastica
             
             if (risposta == "si")
             {
-                Libro();
+                Libro lib = new Libro(nome, autore, numeroPagine);
             }
         }
     }
