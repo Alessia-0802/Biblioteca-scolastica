@@ -40,7 +40,7 @@ namespace BibliotecaScolastica
                 libro.ToString();
             }
             
-            
+            // Richiesta all'utente di scegliere l'azione che vuole apporttare
             Console.WriteLine("Diita 1 per accedere alle informazioni riguardo alla biblioteca");
             Console.WriteLine("Digita 2 per visualizare la media del tempo di lettura");
             Console.WriteLine("Digita 3 se vuoi sucire dal programma definitivamente");
