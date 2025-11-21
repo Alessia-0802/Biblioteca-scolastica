@@ -20,6 +20,14 @@ namespace BibliotecaScolastica
 
             Console.WriteLine("\nInserisci il numero di pagine del libro:");
             string numeroPagine = Console.ReadLine();
+
+            Console.WriteLine("Vuoi confermare la creazione del libro?");
+            string risposta = Console.ReadLine();
+            
+            if (risposta == "si")
+            {
+                Libro();
+            }
         }
     }
 }
